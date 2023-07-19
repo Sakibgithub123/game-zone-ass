@@ -1,0 +1,681 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Work Sans;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-img {
+    font-size: 45px;
+}
+
+.nav-title {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.g {
+    color: rgba(255, 66, 165, 1);
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul li {
+    list-style: none;
+    padding-right: 20px;
+}
+
+nav>ul li a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-social-icon {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-social-icon a {
+    padding-left: 10px;
+}
+
+.nav-social-icon img {
+    width: 30px;
+    height: 24px;
+}
+
+
+
+/* banner */
+.banner {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 100px;
+}
+
+.banner .banner-content {
+    width: 40%;
+}
+
+.banner .img {
+    width: 50%;
+}
+
+.banner .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner .banner-content h3 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.banner .banner-content h1 {
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.banner .banner-content p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+
+}
+
+.banner .banner-content i {
+    color: #FF42A5;
+
+
+}
+
+.btn {
+    margin: 20px 0;
+    gap: 10px;
+
+
+}
+
+.primary-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: 0;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+.secondary-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: 0;
+    padding: 15px 30px;
+    cursor: pointer;
+
+}
+
+main {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* we-r-gamer */
+
+.we-r-gamer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.we-r-gamer .we-r-gamer-content {
+    text-align: right;
+}
+
+.we-r-gamer .we-r-gamer-content h3 {
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.we-r-gamer .we-r-gamer-content p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin: 10px 0;
+}
+
+.we-r-gamer .we-r-gamer-content h6 {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+    /* 187.5% */
+    margin: 10px 0;
+}
+
+.we-r-gamer img {
+    width: 60%;
+}
+
+/* online funny-videos */
+.online-funny-videos {
+    text-align: center;
+}
+
+.online-funny-videos h3 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.online-funny-videos h3 span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-funny-videos p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin: 10px 0;
+}
+
+.online-funny-videos .funny-videos {
+    display: flex;
+    gap: 10px;
+}
+
+.online-funny-videos .funny-videos img {
+    width: 100%;
+    height: 100%;
+}
+
+/* play-instant */
+.play-instant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    text-align: right;
+    margin: 40px 0;
+}
+
+.play-instant h3 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    /* 125% */
+}
+
+.play-instant .play-instant-content {
+    width: 40%;
+
+}
+
+.play-instant .play-instant-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-instant p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+
+}
+
+.play-instant .play-instant-img {
+    position: relative;
+    /* height: 500px; */
+    width: 40%;
+    margin-bottom: 40px;
+
+
+}
+
+.play-instant .play-instant-img .img1 {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    right: 70%;
+    top: 60%;
+}
+
+.play-instant .play-instant-img .img2 {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+}
+
+/* category */
+.category .game-category-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+
+
+}
+
+.category .game-category-1 .games {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.category .game-category-2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.category .game-category-2 .games {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.category p {
+    margin-left: 10px;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.category .games:hover {
+    border: 1px solid #FF42A5;
+    border-radius: 50px;
+    color: #FF42A5;
+    padding: 8px;
+
+}
+
+footer {
+    background: #0B0223;
+    padding: 100px 200px;
+    text-align: center;
+}
+
+footer .footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+footer .footer-icon .amer {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* footer .shortcut-link {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+} */
+footer .shortcut-link {
+    margin: 20px 0;
+
+}
+
+footer .shortcut-link a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+footer .social-link {
+    margin: 20px 0;
+}
+
+footer .social-link a {
+    font-size: 35px;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 20px;
+
+
+}
+
+footer .settings-link {
+    margin: 10px 0;
+
+}
+
+footer .settings-link a {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+/* media queries */
+
+
+@media only screen and (max-width: 870px) {
+
+    nav {
+        flex-direction: column;
+        padding: 20px 50px;
+    }
+
+    .nav-icon {
+        flex-direction: column;
+    }
+
+    nav>ul {
+        flex-direction: column;
+    }
+
+    nav>ul li {
+        padding: 20px 0;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        padding: 10px 50px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .banner .banner-content {
+        width: 100%;
+
+    }
+
+    .banner .img {
+        width: 100%;
+    }
+
+    .banner .banner-content h3 {
+
+        font-size: 38px;
+
+    }
+
+    .banner .banner-content h1 {
+
+        font-size: 48px;
+
+    }
+
+    .banner .btn {
+        display: flex;
+    }
+
+    .banner .btn button {
+        width: 50%;
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+    main {
+        margin: 0;
+        width: 100%;
+    }
+
+    /* .we-r-gamer */
+
+    .we-r-gamer {
+        flex-direction: column;
+        padding: 10px 50px;
+    }
+
+    .we-r-gamer .we-r-gamer-content {
+        text-align: center;
+    }
+
+    .we-r-gamer img {
+        width: 100%;
+    }
+    .we-r-gamer .primary-btn{
+        font-size: 15px;
+        padding: 10px 20px;
+
+    }
+
+    /* online-funny-videos */
+
+    .online-funny-videos .funny-videos img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .online-funny-videos .funny-videos {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .online-funny-videos {
+        padding: 10px 50px;
+
+
+    }
+
+    /* .play-instant */
+
+    .play-instant {
+        flex-direction: column;
+        padding: 10px 50px;
+        text-align: center;
+
+    }
+
+    .play-instant .play-instant-content {
+        width: 100%;
+    }
+
+    .play-instant .play-instant-img {
+        width: 100%;
+    }
+
+    .play-instant .play-instant-img .img1 {
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        right: 65%;
+        top: 65%;
+    }
+
+    .play-instant .play-instant-img .img2 {
+        width: 300px;
+        height: 300px
+    }
+
+
+    /* .category */
+
+    .category {
+        padding: 10px 50px;
+    }
+
+    .category .game-category-1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+
+    }
+
+    .category .game-category-1 .games img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .category .game-category-1 .games p {
+        font-size: 12px;
+    }
+
+    .category .game-category-2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+
+    }
+
+    .category .game-category-2 .games img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .category .game-category-2 .games p {
+        font-size: 12px;
+    }
+
+
+    /* footer */
+    footer {
+        text-align: center;
+        padding: 40px 50px;
+
+    }
+
+    footer .shortcut-link {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    footer .social-link {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+
+    }
+
+    footer .settings-link {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    footer p {
+        padding: 20px 0;
+    }
+
+}
+
+@media only screen and (min-width: 870px) and (max-width: 992px){
+    main {
+        margin: 0;
+        width: 100%;
+    }
+    .banner{
+        padding: 10px 50px;
+        width: 100%;
+        gap: 20%;
+
+    }
+    .banner-content{
+        width: 50%;
+
+    }
+    .banner .img{
+        width: 50%;
+    }
+    .we-r-gamer{
+        padding: 10px 50px;
+
+    }
+    .online-funny-videos {
+        padding: 10px 50px;
+
+
+    }
+    .funny-videos{
+        flex-direction: column;
+
+    }
+    .play-instant{
+        padding: 10px 50px;
+
+    }
+    .category {
+        padding: 50px 50px;
+    }
+    
+    
+
+    footer{
+        padding: 50px 50px;
+    }
+    
+   
+  
+
+}
